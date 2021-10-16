@@ -1,0 +1,16 @@
+// tscongif.json
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "esnext",
+        // this enables stricter inference for data properties on 'this'
+        "strict": true,
+        "jsx": "preserve",
+        "moduleResolution": "node"
+    },
+    "include": [
+        "**/*"
+     ],
+     "exclude": [
+     ]
+}
