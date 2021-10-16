@@ -28,3 +28,4 @@ Route::post('contact', 'MessageController@store')->name('messages.store');
 Auth::routes(['register' => false]);
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Se sube por primera vez al git
